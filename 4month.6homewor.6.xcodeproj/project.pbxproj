@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1EA5A0077EF3FE0F0FDCC2 /* Pods_4month_6homewor_6.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0136C61AAF21B83A0993057 /* Pods_4month_6homewor_6.framework */; };
 		C534AA572978260000B205F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C534AA562978260000B205F3 /* AppDelegate.swift */; };
 		C534AA592978260000B205F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C534AA582978260000B205F3 /* SceneDelegate.swift */; };
 		C534AA5B2978260000B205F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C534AA5A2978260000B205F3 /* ViewController.swift */; };
 		C534AA5E2978260000B205F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C534AA5C2978260000B205F3 /* Main.storyboard */; };
 		C534AA602978260100B205F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C534AA5F2978260100B205F3 /* Assets.xcassets */; };
 		C534AA632978260100B205F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C534AA612978260100B205F3 /* LaunchScreen.storyboard */; };
+		C534AA6B2978292300B205F3 /* MemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C534AA6A2978292300B205F3 /* MemeModel.swift */; };
+		C534AA6D2978293000B205F3 /* MemeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C534AA6C2978293000B205F3 /* MemeController.swift */; };
+		C534AA6F2978293D00B205F3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C534AA6E2978293D00B205F3 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BB801A5EA940241A8B54FBF /* Pods-4month.6homewor.6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-4month.6homewor.6.release.xcconfig"; path = "Target Support Files/Pods-4month.6homewor.6/Pods-4month.6homewor.6.release.xcconfig"; sourceTree = "<group>"; };
+		B0136C61AAF21B83A0993057 /* Pods_4month_6homewor_6.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_4month_6homewor_6.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C534AA532978260000B205F3 /* 4month.6homewor.6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 4month.6homewor.6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C534AA562978260000B205F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C534AA582978260000B205F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,10 @@
 		C534AA5F2978260100B205F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C534AA622978260100B205F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C534AA642978260100B205F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C534AA6A2978292300B205F3 /* MemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeModel.swift; sourceTree = "<group>"; };
+		C534AA6C2978293000B205F3 /* MemeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeController.swift; sourceTree = "<group>"; };
+		C534AA6E2978293D00B205F3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		D506867F3E6DD3C72396BA3B /* Pods-4month.6homewor.6.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-4month.6homewor.6.debug.xcconfig"; path = "Target Support Files/Pods-4month.6homewor.6/Pods-4month.6homewor.6.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1EA5A0077EF3FE0F0FDCC2 /* Pods_4month_6homewor_6.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60B152341ADB95562D74DCE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0136C61AAF21B83A0993057 /* Pods_4month_6homewor_6.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9D18E49B50B7D6B569637F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D506867F3E6DD3C72396BA3B /* Pods-4month.6homewor.6.debug.xcconfig */,
+				0BB801A5EA940241A8B54FBF /* Pods-4month.6homewor.6.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C534AA4A2978260000B205F3 = {
 			isa = PBXGroup;
 			children = (
 				C534AA552978260000B205F3 /* 4month.6homewor.6 */,
 				C534AA542978260000B205F3 /* Products */,
+				B9D18E49B50B7D6B569637F9 /* Pods */,
+				60B152341ADB95562D74DCE5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +89,9 @@
 				C534AA562978260000B205F3 /* AppDelegate.swift */,
 				C534AA582978260000B205F3 /* SceneDelegate.swift */,
 				C534AA5A2978260000B205F3 /* ViewController.swift */,
+				C534AA6A2978292300B205F3 /* MemeModel.swift */,
+				C534AA6C2978293000B205F3 /* MemeController.swift */,
+				C534AA6E2978293D00B205F3 /* NetworkManager.swift */,
 				C534AA5C2978260000B205F3 /* Main.storyboard */,
 				C534AA5F2978260100B205F3 /* Assets.xcassets */,
 				C534AA612978260100B205F3 /* LaunchScreen.storyboard */,
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C534AA672978260100B205F3 /* Build configuration list for PBXNativeTarget "4month.6homewor.6" */;
 			buildPhases = (
+				1B10D3BE8F401368287F32D6 /* [CP] Check Pods Manifest.lock */,
 				C534AA4F2978260000B205F3 /* Sources */,
 				C534AA502978260000B205F3 /* Frameworks */,
 				C534AA512978260000B205F3 /* Resources */,
+				F3D143608FDC0C0ED46D36E1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +168,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B10D3BE8F401368287F32D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-4month.6homewor.6-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3D143608FDC0C0ED46D36E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-4month.6homewor.6/Pods-4month.6homewor.6-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-4month.6homewor.6/Pods-4month.6homewor.6-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-4month.6homewor.6/Pods-4month.6homewor.6-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C534AA4F2978260000B205F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C534AA6F2978293D00B205F3 /* NetworkManager.swift in Sources */,
+				C534AA6D2978293000B205F3 /* MemeController.swift in Sources */,
 				C534AA5B2978260000B205F3 /* ViewController.swift in Sources */,
 				C534AA572978260000B205F3 /* AppDelegate.swift in Sources */,
 				C534AA592978260000B205F3 /* SceneDelegate.swift in Sources */,
+				C534AA6B2978292300B205F3 /* MemeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +362,7 @@
 		};
 		C534AA682978260100B205F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D506867F3E6DD3C72396BA3B /* Pods-4month.6homewor.6.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +391,7 @@
 		};
 		C534AA692978260100B205F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BB801A5EA940241A8B54FBF /* Pods-4month.6homewor.6.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
